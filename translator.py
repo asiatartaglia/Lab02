@@ -1,7 +1,10 @@
+from dictionary import Dictionary
+
+
 class Translator:
 
     def __init__(self):
-        pass
+        self.dictionary = Dictionary()
 
     def printMenu(self):
         # 1. Aggiungi nuova parola
